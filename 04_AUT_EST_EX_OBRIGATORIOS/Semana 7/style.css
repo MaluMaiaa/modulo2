@@ -1,0 +1,84 @@
+body{
+    background-color: gainsboro;
+}
+
+.navbar{
+    background-color: #fff;
+    font-size: 20px;
+    height: 9vh;
+    margin-bottom: 0px;
+}
+
+.exercicio1{
+    padding-top: 20vh;
+    padding-left: 50vh;
+    padding-right: 50vh;
+}
+
+/* EXERCICIO 2 */
+.exercicio2{
+    padding-top: 20vh;
+    padding-left: 50vh;
+    padding-right: 50vh;
+}
+
+.botao{
+    background-color: darksalmon;
+    border-radius: 2vh;
+}
+
+/* EXERCICIO 3 */
+.exercicio3{
+    padding-top: 20vh;
+    padding-left: 50vh;
+    padding-right: 50vh;
+}
+.container
+{
+	height: 250px;
+	width: 450px;
+}
+.container h3
+{
+	text-align: center;
+	margin: 30px 0px;
+	font-size: 27px;
+	color: black;
+}
+.numero
+{
+	height: 50px;
+	width: 400px;
+	outline: none;
+	background: lightgray;
+	padding: 0px 20px;
+	border: 2px solid black;
+	font-size: 18px;
+	margin: 0px 25px;
+}
+.numero::placeholder
+{
+	color: black;
+}
+.container h5
+{
+	height: 20px;
+	width: 400px;
+	margin: 0px 25px;
+	color: #000000;
+}
+.container .check
+{
+	height: 50px;
+	width: 400px;
+	border: none;
+	outline: none;
+	background: aquamarine;
+	padding: 0px 20px;
+	font-size: 20px;
+	margin: 14px 25px;
+	cursor: pointer;
+	font-weight: 600;
+	color: #191e2d;
+}
+
