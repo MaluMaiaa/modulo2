@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html>     
 <head>
 	<meta charset="UTF-8" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 	<title>Semana 7</title>
 	<link rel="stylesheet" href="style.css" />	
+  <script src="script.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
 </head>
 <body>
 <!-- NAVBAR -->
@@ -61,9 +61,31 @@
 			<h5 class="text">Coloque seu telefone</h5>
 			<input type="submit" value="Check" class="check">
 		</div>
+  </div>
 <!--EXERCICIO 4-  -->
-
+<div class="exercicio4" id="exercicio4" style="display: none;">
+  <h1 align="center">Numero de pessoas e horário</h1>
+  <div align="center">
+    <input type='number' placeholder="Numero de pessoas" id="people">
+    <select name="" id="time">
+        <option value="Noturno">Noturno</option>
+        <option value="Diurno">Diurno</option>
+    </select>
+  </div>
+  <div align="center">
+    <button onclick="javaScript:calculo()">Calcular</button>
+  </div>
+  <h1 id="result" align="center"></h1>
+</div>
+<!-- EXERCICIO 5 -->
+<div class="exercicio5" id="exercicio5" style="display: none;">
+  <div align="center">
+    <input type="text" placeholder="Numero de alunos" id="qt"><br>
+    <button onclick="javaScript:qtAlunos()">Criar campos</button><button onclick="javaScript:geral()">Calcular media geral</button><br>
+  </div>
+  <div id="inputs" align="center"></div>
+  <div id="result" align="center"></div>
+  </div>
 
 </body>
-<script src="script.js"></script>
 </html>
