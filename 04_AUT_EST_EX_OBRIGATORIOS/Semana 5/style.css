@@ -1,0 +1,22 @@
+body{
+    background-color: gainsboro;
+}
+
+.navbar{
+    background-color: #fff;
+    font-size: 20px;
+    height: 9vh;
+    margin-bottom: 0px;
+}
+
+.exercicio1{
+    padding-top: 20vh;
+    padding-left: 50vh;
+    padding-right: 50vh;
+}
+
+.exercicio2{
+    padding-top: 20vh;
+    padding-left: 50vh;
+    padding-right: 50vh;
+}
